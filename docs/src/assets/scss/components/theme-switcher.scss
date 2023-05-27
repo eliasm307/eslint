@@ -75,3 +75,9 @@
         }
     }
 }
+
+.theme-switcher__button:hover {
+    .theme-switcher__icon {
+        color: var(--link-color);
+    }
+}

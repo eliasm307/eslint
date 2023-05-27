@@ -62,7 +62,6 @@ html {
 }
 
 body {
-    font-size: var(--step-0);
     position: relative;
     margin: 0 auto;
     line-height: 1.5;
@@ -170,6 +169,11 @@ code {
     pre & {
         color: unset;
     }
+}
+
+p:empty {
+    display: none;
+    margin: 0;
 }
 
 .c-icon {
@@ -342,6 +346,10 @@ nav {
 }
 
 /* typography */
+body {
+    font-size: var(--step-0);
+    line-height: 1.5;
+}
 
 .eyebrow {
     color: var(--link-color);
